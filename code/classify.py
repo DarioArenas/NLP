@@ -26,7 +26,7 @@ def classify_documents():
 
 
 def load_models():
-    features_model = joblib.load('../pickle_model/features_model.pkl')
+    features_model = joblib.load('../../pickle_model/features_model.pkl')
     model = joblib.load(sys.argv[1])
     return model, features_model
 
